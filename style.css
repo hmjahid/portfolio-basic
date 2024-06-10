@@ -1,9 +1,134 @@
 .container {
-    max-width: 1264px;
+    max-width: 1264px!important;
 }
 
 img {
     max-width: 100%;
 }
 
+
+/* Header Section Styles Start Here */
+
+.header-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px #214B67;
+}
+
+.site-logo {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.header-nav-link {
+    color: #214B67;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.header-nav-link:hover {
+    color: #F26529;
+    text-decoration: underline!important;
+    transition: all 0.8s;
+}
+
+.header-social-link {
+    font-size: 24px;
+    color: #214B67;
+}
+
+.header-social-link:hover {
+    color: #F26529;
+    transition: all 0.8s;
+
+}
+
+/* Header Section Styles Start Here */
+
+
+/* About Section Styles Start Here */
+
+.about-section {
+    padding: 160px 0px;
+}
+
+.about-title {
+    color: #F26529;
+    font-family: 'Roboto', sans-serif;
+    font-size:  48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.about-subtitle {
+    color: #214B67;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.desc-text {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.about-desc {
+    text-align: justify;
+}
+
+.about-btn-div {
+    padding-top: 32px;
+}
+
+.contact-btn {
+    font-family: 'Poppins', sans-serif;
+    color: #214B67;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 32px;
+    border: 2px solid #214B67;
+    background-color: #eceff0;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+
+.contact-btn:hover {
+    color: #ffffff;
+    border: 2px solid #F26529;
+    background-color: #F26529;
+}
+
+.about-img {
+    border-radius: 4px;
+}
+
+
+/* About Section Styles Start Here */
+
+
+/* Projets Section Starts Here */
+
+.section-title {
+    color: #214B67;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+/* Projets Section Ends Here */
 
