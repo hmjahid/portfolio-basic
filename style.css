@@ -50,16 +50,16 @@ img {
 
 }
 
-/* Header Section Styles Start Here */
+/* Header Section Styles End Here */
 
 
-/* About Section Styles Start Here */
+/* Hero Section Styles Start Here */
 
-.about-section {
+.hero-section {
     padding: 160px 0px;
 }
 
-.about-title {
+.hero-title {
     color: #F26529;
     font-family: 'Roboto', sans-serif;
     font-size:  48px;
@@ -67,7 +67,7 @@ img {
     line-height: 1.2;
 }
 
-.about-subtitle {
+.hero-subtitle {
     color: #214B67;
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
@@ -77,30 +77,30 @@ img {
 
 .desc-text {
     color: #000000;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
 }
 
-.about-desc {
+.hero-desc {
     text-align: justify;
 }
 
-.about-btn-div {
+.hero-btn-div {
     padding-top: 32px;
 }
 
 .contact-btn {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #214B67;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 700;
     padding: 12px 32px;
     border-radius: 32px;
-    border: 2px solid #214B67;
-    background-color: #eceff0;
+    border: 2px solid #F26529;
+    background-color: #fde1d0;
     text-transform: uppercase;
     transition: all 0.8s;
 }
@@ -111,15 +111,25 @@ img {
     background-color: #F26529;
 }
 
-.about-img {
+.hero-img {
     border-radius: 4px;
 }
 
 
+/* Hero Section Styles End Here */
+
+
 /* About Section Styles Start Here */
 
+/* About Section Styles End Here */
 
-/* Projets Section Starts Here */
+
+
+/* Projets Section Styles Start Here */
+
+.projects-section {
+	padding-top: 120px;
+}
 
 .section-title {
     color: #214B67;
@@ -127,8 +137,53 @@ img {
     font-size: 32px;
     font-weight: 700;
     line-height: 1.2;
+    padding-bottom: 24px;
 }
 
 
-/* Projets Section Ends Here */
+/* Projets Section Styles End Here */
+
+
+/* Contact Section Styles Start Here */
+
+.contact-section {
+	padding: 120px 0px 80px 0px;
+}
+
+.contact-desc{
+	padding-bottom: 16px;
+}
+
+.form-control {
+    padding: 10px;
+    color: #000000;
+    margin: 10px;
+}
+
+
+input[type=text] {
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+input[type=email] {
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+textarea[type=text] {
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.contact-submit-btn-div {
+	padding-top: 24px;
+}
+
 
