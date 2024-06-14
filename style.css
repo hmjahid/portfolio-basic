@@ -140,8 +140,16 @@ img {
     padding-bottom: 24px;
 }
 
-
 /* Projets Section Styles End Here */
+
+/* Certifications Section Styles Start Here */
+
+.certifications-section {
+	padding-top: 120px;
+}
+
+/* Certifications Section Styles End Here */
+
 
 
 /* Contact Section Styles Start Here */
