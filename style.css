@@ -1,3 +1,7 @@
+body {
+    scroll-behavior: smooth!important;
+}
+
 .container {
     max-width: 1264px!important;
 }
@@ -26,18 +30,19 @@ img {
 }
 
 .header-nav-link {
-    color: #214B67;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.5px;
+    color: #214B67!important;
+    font-family: "Roboto", sans-serif!important;
+    font-size: 20px!important;
+    font-weight: 500!important;
+    line-height: 1.2!important;
+    letter-spacing: 0.5px!important;
 }
 
 .header-nav-link:hover {
-    color: #F26529;
+    color: #F26529!important;
     text-decoration: underline!important;
-    transition: all 0.8s;
+    transition: all 0.8s!important;
+    background-color: #ffffff!important;
 }
 
 .header-social-link {
@@ -49,6 +54,18 @@ img {
     color: #F26529;
     transition: all 0.8s;
 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.responsive-mobile-menu-toggle-icon-div .btn-primary  {
+    background-color: #214B67!important;
+}
+
+.responsive-mobile-menu-toggle-icon-div .btn-primary:hover  {
+    background-color:#F26529!important;
 }
 
 /* Header Section Styles End Here */
