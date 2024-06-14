@@ -62,6 +62,7 @@ img {
 
 .responsive-mobile-menu-toggle-icon-div .btn-primary  {
     background-color: #214B67!important;
+    margin-top: 2.5px;
 }
 
 .responsive-mobile-menu-toggle-icon-div .btn-primary:hover  {

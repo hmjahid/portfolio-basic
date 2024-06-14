@@ -15,4 +15,10 @@
     .header-nav-link {
         font-size: 16px!important;
     }
+
+    .site-logo {
+        margin-top: 5px;
+        width: 40px;
+        height: 40px;
+    }
 }
