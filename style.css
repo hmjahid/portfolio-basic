@@ -160,6 +160,9 @@ img {
     margin: 10px;
 }
 
+input, textarea {
+    padding: 10px 20px!important;
+}
 
 input[type=text] {
     font-family:"Open Sans", sans-serif;
