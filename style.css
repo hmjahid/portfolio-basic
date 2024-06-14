@@ -66,6 +66,7 @@ img {
 
 .responsive-mobile-menu-toggle-icon-div .btn-primary:hover  {
     background-color:#F26529!important;
+    transition: all 0.5s;
 }
 
 /* Header Section Styles End Here */
