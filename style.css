@@ -195,7 +195,7 @@ img {
     padding: 0px 16px;
   }
 
-  project-name {
+  .project-name {
     font-size: 24px;
     font-weight: 600;
   }
