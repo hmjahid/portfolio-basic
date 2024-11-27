@@ -160,6 +160,42 @@ img {
     padding-bottom: 24px;
 }
 
+.project-details-card-inner {
+    border-radius: 24px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    padding-bottom: 24px;
+  }
+  .project-title-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    padding: 16px;
+  }
+  .project-description {
+    padding: 0px 16px;
+  }
+
+
+.projects-desc{
+    margin-bottom: 48px;
+  }
+
+  .projects-sub-title {
+    font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.2;
+      padding-bottom: 24px;
+      color: #214B67;
+  }
+
+  .project-role {
+    padding: 0px 16px;
+  }
+  
+
 /* Projets Section Styles End Here */
 
 /* Certifications Section Styles Start Here */
