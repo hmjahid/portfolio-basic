@@ -9,12 +9,65 @@
     .footer-nav-title {
         padding-left: 0px;
     }
+
+    .hero-section .row {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section .row  .col-lg-5 {
+        max-width: 420px;
+    }
+
+    .hero-col-inner {
+        padding-top: 32px;
+       
+      }
+
+    .hero-img-col-inner img {
+        text-align: center;
+
+    }
+
+      
 }
 
 @media (max-width: 767px) {
+    .header-section .row {
+        justify-content: space-between!important;
+    }
     .header-nav-link {
         font-size: 18px!important;
     }
+
+    .hero-section {
+        padding: 100px 0px 60px 0;
+    }
+
+    .hero-col-inner {
+        padding-top: 16px;
+      }
+
+      .hero-title {
+        font-size: 32px;;
+      }
+
+      .section-subtitle {
+        font-size: 20px;;
+      }
+
+      .project-title-box {
+        flex-direction: column ;
+      }
+
+      .project-name {
+        font-size: 16px;
+      }
+
+      .site-link {
+        width: 60px;;
+        display: inline-block;
+      }
 
 }
 
