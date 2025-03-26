@@ -5,6 +5,12 @@
       }
 }
 
+@media (max-width:1024px) {
+  .projects-intro-col-inner {
+    padding-top: 40px;
+  }
+}
+
 @media (max-width:992px) {
     .footer-nav-title {
         padding-left: 0px;
@@ -27,6 +33,10 @@
     .hero-img-col-inner img {
         text-align: center;
 
+    }
+
+    .projects-intro-col-inner {
+      padding-top: 32px;
     }
 
       
@@ -55,6 +65,11 @@
       .section-subtitle {
         font-size: 20px;;
       }
+
+      .projects-intro-col-inner {
+        padding-top: 24px;
+      }
+    
 
       .project-title-box {
         flex-direction: column ;
